@@ -1,7 +1,8 @@
 # seandroke.com - A Personal & Professional Portfolio
 
 ## Project Description
-
+<a href="https://seandroke.com" target="__none__">https://seandroke.com</a>
+<br /><br />
 One of my biggest initiatives upon the conclusion of my degree, was pushing out a personal web portfolio as a sort of
 culmination of my academic and professional experience. The goal was fairly simple. To, "from scratch", build a front end application as to
 be a digital representation of myself, while also demonstrating the knowledge and skillset I have gained in Software Engineering.
