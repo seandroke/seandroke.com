@@ -53,21 +53,21 @@ I ask that you only reference the creator :)
 <br /><br />
 ------------><strong>"Insert Component Name"</strong>:<i> Any of the sub components.</i>
 <br /><br />
-----------------><strong>"index.js"</strong>:<i>Base router file.</i>
+----------------><strong>"index.js"</strong>:<i> Base router file.</i>
 <br /><br />
-----------------><strong>"ComponentName.js"</strong>:<i>Most of the component logic.</i>
+----------------><strong>"ComponentName.js"</strong>:<i> Most of the component logic.</i>
 <br /><br />
-----------------><strong>"ComponentName-Style.js"</strong>:<i>Styling file.</i>
+----------------><strong>"ComponentName-Style.js"</strong>:<i> Styling file.</i>
 <br /><br />
---------><strong>pages</strong>:<i>Router files referencing components. Key file listed below.</i>
+--------><strong>pages</strong>:<i> Router files referencing components. Key file listed below.</i>
 <br /><br />
-------------><strong>"index.js"</strong>:<i>Router file that handles component references.</i>
+------------><strong>"index.js"</strong>:<i> Router file that handles component references.</i>
 <br /><br />
---------><strong>static</strong>:<i>Any static text and imagery</i>
+--------><strong>static</strong>:<i> Any static text and imagery</i>
 <br /><br />
---------><strong>theme</strong>:<i>Commonly referenced/universal styles</i>
+--------><strong>theme</strong>:<i> Commonly referenced/universal styles</i>
 <br /><br />
---------><strong>theme</strong>:<i>Commonly referenced/universal styles</i>
+--------><strong>theme</strong>:<i> Commonly referenced/universal styles</i>
 
 ## Usage
 
