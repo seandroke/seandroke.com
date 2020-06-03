@@ -6,8 +6,8 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import Divider from '@material-ui/core/Divider';
-import logo from '~/static/images/profile-logo.png';
-import { useText } from '~/theme/common';
+import logo from '/home/bitnami/projects/seandroke.com/static/images/profile-logo.png';
+import { useText } from '/home/bitnami/projects/seandroke.com/theme/common';
 import useStyles from './footer-style';
 import ContactForm from '../Contact/Form';
 

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
-import { useText } from '~/theme/common';
+import { useText } from '/home/bitnami/projects/seandroke.com/theme/common';
 import useStyles from './cards-style';
 
 export default function Testimonial(props) {

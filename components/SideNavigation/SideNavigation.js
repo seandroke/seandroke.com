@@ -6,11 +6,11 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Container from '@material-ui/core/Container';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Scrollspy from 'react-scrollspy';
-import logo from '~/static/images/profile-logo.png';
-import { withTranslation } from '~/i18n';
+import logo from '/home/bitnami/projects/seandroke.com/static/images/profile-logo.png';
+import { withTranslation } from '/home/bitnami/projects/seandroke.com/i18n';
 import useStyles from './sidenav-style';
 import navMenu from './menu';
-import '~/vendors/hamburger-menu.css';
+import '/home/bitnami/projects/seandroke.com/vendors/hamburger-menu.css';
 
 let counter = 0;
 function createData(name, url, offset) {

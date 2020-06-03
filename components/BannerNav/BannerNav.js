@@ -8,8 +8,8 @@ import Grid from '@material-ui/core/Grid';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import SideNavigation from '../SideNavigation';
-import brand from '~/static/text/brand';
-import { useText } from '~/theme/common';
+import brand from '/home/bitnami/projects/seandroke.com/static/text/brand';
+import { useText } from '/home/bitnami/projects/seandroke.com/theme/common';
 import useStyles from './banner-style';
 
 

@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
-import imgAPI from '~/static/images/imgAPI';
+import imgAPI from '/home/bitnami/projects/seandroke.com/static/images/imgAPI';
 
 const experienceStyles = makeStyles(theme => ({
   root: {

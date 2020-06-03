@@ -1,6 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
-import titleDecoLight from '~/static/images/profile/titleDecoLight.png';
-import titleDecoDark from '~/static/images/profile/titleDecoDark.png';
+import titleDecoLight from '/home/bitnami/projects/seandroke.com/static/images/profile/titleDecoLight.png';
+import titleDecoDark from '/home/bitnami/projects/seandroke.com/static/images/profile/titleDecoDark.png';
 
 const titleStyles = makeStyles(theme => ({
   dark: {},

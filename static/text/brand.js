@@ -1,5 +1,4 @@
-import imgAPI from '~/static/images/imgAPI';
-
+import imgAPI from '/home/bitnami/projects/seandroke.com/static/images/imgAPI';
 module.exports = {
   profile: {
     name: 'Sean Droke',

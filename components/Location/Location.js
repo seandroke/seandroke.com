@@ -11,7 +11,7 @@ import Typography from '@material-ui/core/Typography';
 import Popover from '@material-ui/core/Popover';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
-import { useText } from '~/theme/common';
+import { useText } from '/home/bitnami/projects/seandroke.com/theme/common';
 import testiData from './locationData';
 import Title from '../Title';
 import useStyle from './location-style';

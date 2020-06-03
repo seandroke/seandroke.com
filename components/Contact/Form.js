@@ -6,7 +6,7 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Snackbar from '@material-ui/core/Snackbar';
-import { useText } from '~/theme/common';
+import { useText } from '/home/bitnami/projects/seandroke.com/theme/common';
 import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
 import useStyles from './contact-style';
 

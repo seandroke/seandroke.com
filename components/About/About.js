@@ -5,14 +5,12 @@ import ReactWOW from 'react-wow';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
-import { withTranslation } from '~/i18n';
-import { useText } from '~/theme/common';
+import { useText } from '/home/bitnami/projects/seandroke.com/theme/common';
 import useStyles from './about-style';
 
 function About(props) {
   const classes = useStyles();
   const text = useText();
-  const { t } = props;
   const [play, setPlay] = useState(false);
   const countup = (val, isPlay) => (
     <span>
@@ -53,7 +51,6 @@ function About(props) {
 }
 
 About.propTypes = {
-  t: PropTypes.func.isRequired
 };
 
-export default withTranslation(['profile-landing'])(About);
+export default About;

@@ -5,13 +5,13 @@ import Carousel from 'react-slick';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import clsx from 'clsx';
-import { useText } from '~/theme/common';
+import { useText } from '/home/bitnami/projects/seandroke.com/theme/common';
 import Title from '../Title';
 import IconTextCard from '../Cards/IconText';
 import useStyle from './projects-style';
-import COMCAST from '~/static/images/comcast.png';
-import TIERNEY from '~/static/images/tierney_logo.png';
-import IPG from '~/static/images/ipg.png';
+import COMCAST from '/home/bitnami/projects/seandroke.com/static/images/comcast.png';
+import TIERNEY from '/home/bitnami/projects/seandroke.com/static/images/tierney_logo.png';
+import IPG from '/home/bitnami/projects/seandroke.com/static/images/ipg.png';
 import Button from '@material-ui/core/Button';
 
 const services = [
