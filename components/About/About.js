@@ -5,7 +5,8 @@ import ReactWOW from 'react-wow';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
-import { useText } from '/home/bitnami/projects/seandroke.com/theme/common';
+import { withTranslation } from '../../i18n';
+import { useText } from '../../theme/common';
 import useStyles from './about-style';
 
 function About(props) {
@@ -51,6 +52,7 @@ function About(props) {
 }
 
 About.propTypes = {
+  t: PropTypes.func.isRequired
 };
 
-export default About;
+export default withTranslation(['profile-landing'])(About);

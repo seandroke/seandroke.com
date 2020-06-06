@@ -10,10 +10,10 @@ import IconButton from '@material-ui/core/IconButton';
 import Container from '@material-ui/core/Container';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Fade from '@material-ui/core/Fade';
-import { withTranslation } from '/home/bitnami/projects/seandroke.com/i18n';
-import logo from '/home/bitnami/projects/seandroke.com/static/images/profile-logo.png';
-import routeLink from '/home/bitnami/projects/seandroke.com/static/text/link';
-import '/home/bitnami/projects/seandroke.com/vendors/hamburger-menu.css';
+import { withTranslation } from '../../i18n';
+import logo from '../../static/images/profile-logo.png';
+import routeLink from '../../static/text/link';
+import '../../vendors/hamburger-menu.css';
 import useStyles from './header-style';
 import navMenu from '../SideNavigation/menu';
 

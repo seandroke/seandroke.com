@@ -9,8 +9,8 @@ import IconButton from '@material-ui/core/IconButton';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import brand from '/home/bitnami/projects/seandroke.com/static/text/brand';
-import { useText } from '/home/bitnami/projects/seandroke.com/theme/common';
+import brand from '../../static/text/brand';
+import { useText } from '../../theme/common';
 import useStyles from './education-style';
 
 function Education(props) {

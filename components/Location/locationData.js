@@ -1,6 +1,6 @@
-import imgApi from '/home/bitnami/projects/seandroke.com/static/images/imgAPI';
-import pin from '/home/bitnami/projects/seandroke.com/static/images/icons8-map-pin-48.png';
-import LovePark from '/home/bitnami/projects/seandroke.com/static/images/love-park.jpg';
+import imgApi from '../../static/images/imgAPI';
+import pin from '../../static/images/icons8-map-pin-48.png';
+import LovePark from '../../static/images/love-park.jpg';
 
 const locationData = [
   {
