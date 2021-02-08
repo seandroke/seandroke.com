@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { default } from './SideNavigation';","map":{"version":3,"sources":["/home/sean.droke/Development/seandroke.com/components/SideNavigation/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,kBAAxB","sourcesContent":["export { default } from './SideNavigation';\r\n"]},"metadata":{},"sourceType":"module"}
