@@ -79,7 +79,7 @@ MyDocument.getInitialProps = async ctx => {
     styles: (
       <React.Fragment>
         {initialProps.styles}
-        {process.env.NODE_ENV === 'development' && sheets.getStyleElement()}
+        {process.env.NODE_ENV === 'production' && sheets.getStyleElement()}
       </React.Fragment>
     ),
   };

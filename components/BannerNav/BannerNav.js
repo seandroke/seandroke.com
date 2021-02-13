@@ -82,11 +82,11 @@ function BannerNav(props) {
           <Grid item lg={10} xs={12}>
             <div className={classes.banner}>
               <div className={classes.cover}>
-                <div className={classes.figure}>
+                {/* <div className={classes.figure}> */}
                 {/* <canvas id="canvas" className={classes.globe}></canvas> */}
                 <img src={brand.profile.cover} alt="cover" />
                   <div className={classes.overlay} />
-                </div>
+                {/* </div> */}
               </div>
               <div className={classes.text}>
                 <Typography variant="h4" className={text.title2}>
