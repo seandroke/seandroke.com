@@ -33,7 +33,7 @@ function About(props) {
                   </Typography>
                 </div>
                 <Typography variant="h6" className={text.subtitle2}>
-                  I am 22 years old, born and raised in the Greater Philadelphia Area. For the majority of my life, I have called
+                  I am 23 years old, born and raised in the Greater Philadelphia Area. For the majority of my life, I have called
                   Medford, New Jersey home. I am the eldest of three boys, born of two math teachers, yet I was always partial to the
                   sciences.<br/><br/>I'm known to always be looking for a different way to solve something, and not stopping until I find an
                   answer to the problems I face. I have always been fascinated with computers, and I can't think of a career with more

@@ -15,6 +15,7 @@ import CPP from '../../static/images/cpp_logo.png';
 import PHP from '../../static/images/php.png';
 import JAVA from '../../static/images/java.png';
 import DJANGO from '../../static/images/django.png';
+import GRAPHQL from '../../static/images/GraphQL.png';
 import SPRING from '../../static/images/spring.png';
 import REACT from '../../static/images/react.png';
 import BOOTSTRAP from '../../static/images/bootstrap.png';
@@ -158,8 +159,10 @@ function Experience(props) {
                     </li>
                     <li className={classes.subList}>
                       <div className={classes.textIcon1}>
-                        <img src={JAVA} className={classes.customTimelineLogoJava}/>
-                        <Typography variant="h6" className={text.subtitle2}>Java</Typography>
+                      <i style={rightMargin} className="ion-social-javascript" />
+                        <Typography variant="h6" className={text.subtitle2}>
+                          JavaScript
+                        </Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
@@ -172,10 +175,8 @@ function Experience(props) {
                     </li>
                     <li className={classes.subList}>
                       <div className={classes.textIcon1}>
-                        <i style={rightMargin} className="ion-social-javascript" />
-                        <Typography variant="h6" className={text.subtitle2}>
-                          JavaScript
-                        </Typography>
+                      <img src={JAVA} className={classes.customTimelineLogoJava}/>
+                        <Typography variant="h6" className={text.subtitle2}>Java</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
@@ -229,6 +230,12 @@ function Experience(props) {
                         avatar={<Avatar style={{}} alt="Natacha" src={DJANGO} />}
                         style={{fontSize: '20px', fontWeight: '700'}}
                         label = "Django"
+                        variant="outlined"
+                        />
+                      <Chip
+                        avatar={<Avatar style={{}} alt="Natacha" src={GRAPHQL} />}
+                        style={{fontSize: '20px', fontWeight: '700'}}
+                        label = "GraphQL"
                         variant="outlined"
                         />
                       <Chip

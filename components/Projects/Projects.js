@@ -20,7 +20,9 @@ const services = [
     name: 'Comcast',
     desc: 'Full Stack Software Engineer',
     projectOverview: [{projectNumber: 1, projectName: 'Big Data Natural Language Parser', projectDescription: 'Built a python parser for automating the identification of specific elements within a teradata database based on user defined parameters. Project involved optimizing existing queries to be as time/space efficient as possible on larger data sets (100TB+) as well as integrating results with a tensorflow based natural language processor to identify elements of relevant meaning with an acceptable degree of confidence.'}, 
-    {projectNumber: 2, projectName: 'PySpark Translations', projectDescription: 'Currently working on translating existing Hive SQL queries, used to aggregate data marts referenced by business facing web applications, to the PySpark/DataFrame syntax. PySpark enables for increased developer readability, advanced data science integration, and increased performance due to better optimized CI/CD.'}]
+    {projectNumber: 2, projectName: 'PySpark Translations', projectDescription: 'Ongoing work on refactoring/translating an existing Hive SQL codebase, used to aggregate big data warehouses, to the PySpark/DataFrame syntax. PySpark enables for enhanced developer readability, easier data science integration, and increased performance and speed.'},
+    {projectNumber: 3, projectName: 'GraphQL Back-End Web Infrastructure', projectDescription: 'Worked on a GraphQL back end web application providing an intermediary layer between underlying big data sources and business facing front end dashboards. Built out pre-aggregated table architecture and utilized Presto query fabric to reduce data availability access times.'},
+    {projectNumber: 4, projectName: 'AWS & Hybrid Cloud Data Migration', projectDescription: 'Part of an ongoing effort to migrate petabytes of hadoop structured data lakes and warehouses to AWS and Databricks. Efforts invlove system architecture and process planning, S3 bucket provisioning, and use of various code-based methods to safely migrate tables.'}]
   },
   {
     icon: TIERNEY,

@@ -150,8 +150,9 @@ const experienceStyles = makeStyles(theme => ({
     filter: 'grayscale(100%)'
   },
   customTimelineLogoJava: {
-    width: '50px',
-    height: '50px',
+    width: '25px',
+    height: '40px',
+    marginRight: '10px',
     WebkitFilter: 'grayscale(100%)',
     filter: 'grayscale(100%)'
   },

@@ -27,7 +27,7 @@ function SideNavigation(props) {
   const classes = useStyles();
   const { t } = props;
   const [menuList] = useState([
-    createData(navMenu[0], '#' + navMenu[0], 0),
+    createData(navMenu[0], '#' + navMenu[0]),
     createData(navMenu[1], '#' + navMenu[1], 80),
     createData(navMenu[2], '#' + navMenu[2], -250),
     createData(navMenu[3], '#' + navMenu[3]),
