@@ -30,7 +30,6 @@ const HeadComponent = () => (
     <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/logo_32x32.png" />
     <link rel="icon" type="image/png" sizes="96x96" href="/static/favicons/logo_92x92.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/logo_16x16.png" />
-    <link rel="manifest" href="/static/favicons/manifest.json" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="/static/favicons/logo_144x144.png" />
     {/* PWA primary color */}

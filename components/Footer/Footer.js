@@ -27,7 +27,6 @@ function Footer(props) {
           height={1099}
           className={classes.parallaxDot}
         >
-          <use xlinkHref="/static/images/decoration/dot-deco.svg#dot" />
         </svg>
       </div>
       <Container maxWidth="lg" component="footer">
