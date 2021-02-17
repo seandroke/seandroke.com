@@ -62,7 +62,7 @@ function Footer(props) {
               <Typography className={text.paragraph}>
                 Email Me!
                 <br />
-                sean.droke@temple.edu
+                drokesean@gmail.com
               </Typography>
             </div>
           </Grid>
