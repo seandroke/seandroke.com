@@ -93,7 +93,7 @@ function BannerNav(props) {
                   Hi,
                 </Typography>
                 <Typography variant="h2" className={text.title}>
-                  My name is&nbsp;Sean Droke,<br /><nobr>Full Stack</nobr><nobr> </nobr><nobr>Software Engineer</nobr>
+                  My name is&nbsp;Sean Droke,<br />Full Stack Software Engineer
                 </Typography>
                 <Hidden smDown>
                   <Typography variant="h5" className={text.subtitle2}>
