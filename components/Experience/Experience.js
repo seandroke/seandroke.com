@@ -54,6 +54,10 @@ import HADOOP from '../../static/images/hadoop.png';
 
 import MONGO from '../../static/images/mongo.png';
 
+import LARAVEL from '../../static/images/laravel.png';
+
+import POSTGRESQL from '../../static/images/postgresql.png';
+
 import Slider from 'react-slick';
 
 import Chip from '@material-ui/core/Chip';
@@ -508,6 +512,18 @@ function Experience(props) {
 
                         />
 
+                      <Chip
+
+                      avatar={<Avatar alt="Natacha" src={LARAVEL} />}
+
+                      style={{textAlign: 'center', fontSize: '20px', fontWeight: '700'}}
+
+                      label = "Laravel"
+
+                      variant="outlined"
+
+                      />
+
                       </div>
 
                       </div>
@@ -643,6 +659,18 @@ function Experience(props) {
                         variant="outlined"
 
                         />
+
+                      <Chip
+
+                      avatar={<Avatar alt="Natacha" src={POSTGRESQL} />}
+
+                      style={{fontSize: '20px', fontWeight: '700'}}
+
+                      label = "PostgreSQL"
+
+                      variant="outlined"
+
+                      />
 
                       </div>
 
