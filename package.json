@@ -55,7 +55,7 @@
 		"react-slick": "0.25.0",
 		"react-wow": "^1.0.0",
 		"slick-carousel": "^1.8.1",
-		"three": "^0.115.0"
+		"three": "^0.125.0"
 	},
 	"devDependencies": {
 		"eslint": "5.16.0",
