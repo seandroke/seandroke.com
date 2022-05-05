@@ -33,7 +33,7 @@
 		"express": "^4.17.3",
 		"jss": "^10.9.0",
 		"jss-rtl": "^0.2.3",
-		"next": "9.0.2",
+		"next": "12.1.0",
 		"next-i18next": "^1.2.1",
 		"next-images": "^1.8.4",
 		"next-page-transitions": "^1.0.0-beta.2",
