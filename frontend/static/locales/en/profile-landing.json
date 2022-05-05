@@ -1,0 +1,17 @@
+{
+  "header_language": "language",
+  "header_theme": "Theme mode",
+  "header_dark": "dark",
+  "header_light": "light",
+  "header_home": "home",
+  "header_about": "about",
+  "header_education": "education",
+  "header_experience": "experience",
+  "header_projects": "projects",
+  "header_location": "location",
+  "header_services": "services",
+  "header_my-work": "my work",
+  "header_testimonials": "testimonials",
+  "header_blog": "blog",
+  "header_contact": "contact"
+}
