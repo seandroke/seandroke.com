@@ -21,7 +21,7 @@ const request = (options) => {
 
 export function getAttributes() {
     return request({
-        url: "http://localhost:8080" + "/Attributes",
+        url: "http://localhost:80/api" + "/Attributes",
         method: "GET"
     })
 }

@@ -23,30 +23,4 @@ public class AttributeEndpoint {
 	public AttributeModel getAllAttributes() {
 		return attributeRepository.findFirstByOrderByIdDesc();
 	}
-
-	// @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-	// public AttributeModel getEmployee(@PathVariable long id) {
-	// 	logger.info("Getting Employee with ID: {}.", id);
-	// 	Optional<AttributeModel> attributeModel = attributeRepository.findById(id);
-	// 	return attributeModel.get();
-	// }
-
-	// @RequestMapping(value="/getSection", method = RequestMethod.GET)
-	// @CrossOrigin(origins = "*")
-	// public List<AttributeModel> getAttributeBySection(@RequestParam("section") String sectionName) {
-	// 	List<AttributeModel> attributeModel = attributeRepository.findBySectionName(sectionName);
-	// 	return attributeModel;
-	// }
-
-	// @RequestMapping(value = "/create", method = RequestMethod.POST)
-	// public AttributeModel add(@RequestBody AttributeModel attributeModel) {
-	// 	logger.info("Saving Employee.");
-	// 	return attributeRepository.save(attributeModel);
-	// }
-	// @RequestMapping(value = "{id}", method = RequestMethod.DELETE)
-	// public void delete(@PathVariable Long id) {
-	// 	AttributeModel model = attributeRepository.findById(id).get();
-	// 	logger.info("Deleting Employee.");
-	// 	attributeRepository.delete(model);
-	// }
 }

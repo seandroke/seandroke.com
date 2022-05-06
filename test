@@ -6,7 +6,7 @@
   },
   "Education": {
     "heading": "EDUCATION",
-    "img": "http://localhost:8080/uploads/files/education-logo.png",
+    "img": "http://localhost/api/uploads/files/education-logo.png",
     "degree": "BS, Computer Science",
     "tenure": "2017-2020"
   },
@@ -47,62 +47,62 @@
       {
         "language": "Python",
         "proficiency": 85,
-        "logo": "http://localhost:8080/uploads/files/languages/python.png"
+        "logo": "http://localhost/api/uploads/files/languages/python.png"
       },
       {
         "language": "JavaScript",
         "proficiency": 75,
-        "logo": "http://localhost:8080/uploads/files/languages/js.png"
+        "logo": "http://localhost/api/uploads/files/languages/js.png"
       },
       {
         "language": "PHP",
         "proficiency": 75,
-        "logo": "http://localhost:8080/uploads/files/languages/php.png"
+        "logo": "http://localhost/api/uploads/files/languages/php.png"
       },
       {
         "language": "Java",
         "proficiency": 65,
-        "logo": "http://localhost:8080/uploads/files/languages/java.png"
+        "logo": "http://localhost/api/uploads/files/languages/java.png"
       },
       {
         "language": "C/C++",
         "proficiency": 50,
-        "logo": "http://localhost:8080/uploads/files/languages/cpp.png"
+        "logo": "http://localhost/api/uploads/files/languages/cpp.png"
       }
     ],
     "WebFrameworks": {
       "BackEnd": [
         {
           "technology": "Django",
-          "logo": "http://localhost:8080/uploads/files/frameworks/django.png"
+          "logo": "http://localhost/api/uploads/files/frameworks/django.png"
         },
         {
           "technology": "GraphQL",
-          "logo": "http://localhost:8080/uploads/files/frameworks/graphql.png"
+          "logo": "http://localhost/api/uploads/files/frameworks/graphql.png"
         },
         {
           "technology": "Spring Boot",
-          "logo": "http://localhost:8080/uploads/files/frameworks/spring.png"
+          "logo": "http://localhost/api/uploads/files/frameworks/spring.png"
         },
         {
           "technology": "Laravel",
-          "logo": "http://localhost:8080/uploads/files/frameworks/laravel.png"
+          "logo": "http://localhost/api/uploads/files/frameworks/laravel.png"
         }
       ],
       "FrontEnd": [
         {
           "technology": "React",
-          "logo": "http://localhost:8080/uploads/files/frameworks/react.png"
+          "logo": "http://localhost/api/uploads/files/frameworks/react.png"
         }
       ],
       "CSS": [
         {
           "technology": "Bootstrap",
-          "logo": "http://localhost:8080/uploads/files/frameworks/bootstrap.png"
+          "logo": "http://localhost/api/uploads/files/frameworks/bootstrap.png"
         },
         {
           "technology": "Material UI",
-          "logo": "http://localhost:8080/uploads/files/frameworks/mui.png"
+          "logo": "http://localhost/api/uploads/files/frameworks/mui.png"
         }
       ]
     },
@@ -110,35 +110,35 @@
       "SQL": [
         {
           "technology": "MySQL",
-          "logo": "http://localhost:8080/uploads/files/databases/mysql.png"
+          "logo": "http://localhost/api/uploads/files/databases/mysql.png"
         },
         {
           "technology": "Microsoft SQL",
-          "logo": "http://localhost:8080/uploads/files/databases/mssql.png"
+          "logo": "http://localhost/api/uploads/files/databases/mssql.png"
         },
         {
           "technology": "Hive SQL",
-          "logo": "http://localhost:8080/uploads/files/databases/hive.png"
+          "logo": "http://localhost/api/uploads/files/databases/hive.png"
         },
         {
           "technology": "PostgreSQL",
-          "logo": "http://localhost:8080/uploads/files/databases/postgresql.png"
+          "logo": "http://localhost/api/uploads/files/databases/postgresql.png"
         }
       ],
       "BigData": [
         {
           "technology": "Spark",
-          "logo": "http://localhost:8080/uploads/files/databases/spark.png"
+          "logo": "http://localhost/api/uploads/files/databases/spark.png"
         },
         {
           "technology": "Hadoop",
-          "logo": "http://localhost:8080/uploads/files/databases/hadoop.png"
+          "logo": "http://localhost/api/uploads/files/databases/hadoop.png"
         }
       ],
       "NoSQL": [
         {
           "technology": "MongoDB",
-          "logo": "http://localhost:8080/uploads/files/databases/mongo.png"
+          "logo": "http://localhost/api/uploads/files/databases/mongo.png"
         }
       ]
     }
@@ -147,7 +147,7 @@
     {
       "company": "Penn National Gaming",
       "title": "Software Engineer",
-      "logo": "http://localhost:8080/uploads/files/companies/penn.png",
+      "logo": "http://localhost/api/uploads/files/companies/penn.png",
       "Projects": [
         {
           "name": "Full Stack App",
@@ -158,7 +158,7 @@
     {
       "company": "Comcast",
       "title": "Full Stack Software Engineer",
-      "logo": "http://localhost:8080/uploads/files/companies/comcast.png",
+      "logo": "http://localhost/api/uploads/files/companies/comcast.png",
       "Projects": [
         {
           "name": "Big Data Natural Language Parser",
@@ -181,7 +181,7 @@
     {
       "company": "Tierney Communications",
       "title": "Full Stack Developer",
-      "logo": "http://localhost:8080/uploads/files/companies/tierney.png",
+      "logo": "http://localhost/api/uploads/files/companies/tierney.png",
       "Projects": [
         {
           "name": "Development Practice Overhaul",
@@ -192,7 +192,7 @@
     {
       "company": "Comcast",
       "title": "Network & Automation Engineering Intern",
-      "logo": "http://localhost:8080/uploads/files/companies/comcast.png",
+      "logo": "http://localhost/api/uploads/files/companies/comcast.png",
       "Projects": [
         {
           "name": "Pre-Configuration Template Generator",
@@ -207,7 +207,7 @@
     {
       "company": "The Interpublic Group",
       "title": "Software Engineering Intern",
-      "logo": "http://localhost:8080/uploads/files/companies/ipg.png",
+      "logo": "http://localhost/api/uploads/files/companies/ipg.png",
       "Projects": [
         {
           "name": "Encrypted Device Reporting Tool",
@@ -226,7 +226,7 @@
   "Location": {
     "location": "Philadelphia, PA",
     "description": "I am living and working remotely from Philly!",
-    "img": "http://localhost:8080/uploads/files/locations/love-park.jpg",
+    "img": "http://localhost/api/uploads/files/locations/love-park.jpg",
     "x": 125,
     "y": 110,
     "availability": "Part Time",

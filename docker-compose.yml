@@ -13,7 +13,7 @@ services:
       NODE_ENV: development
       DEBUG: nodejs-docker-express:*
     networks:
-      - frontend
+      - app
 
   backend:
     image: gradle:6.9-jdk11
@@ -30,8 +30,7 @@ services:
     #   SPRING_DATASOURCE_USERNAME: sean
     #   SPRING_DATASOURCE_PASSWORD: droke 
     networks:
-      - frontend
-      - backend
+      - app
 
   db:
     image: mongo:latest
@@ -43,11 +42,19 @@ services:
     volumes:
       - db-data:/data/db
     networks:
-      - backend
+      - app
 
+  nginx:
+    image: nginx:stable-alpine
+    ports:
+      - 80:80
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - app
+    
 volumes:
   db-data:
 
 networks:
-  backend:
-  frontend: 
+  app:
