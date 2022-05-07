@@ -6,8 +6,6 @@ services:
     volumes:
       - ./frontend/.:/src/
     working_dir: /src
-    ports:
-      - "3000:3000"
     command: bash -c "npm install && npm run dev"
     environment:
       NODE_ENV: development
@@ -23,12 +21,6 @@ services:
     command: sh run.sh
     depends_on:
       - db
-    ports:
-      - 8080:8080
-    # environment:
-    #   SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/seandroke?useSSL=false&allowPublicKeyRetrieval=true
-    #   SPRING_DATASOURCE_USERNAME: sean
-    #   SPRING_DATASOURCE_PASSWORD: droke 
     networks:
       - app
 
@@ -47,9 +39,12 @@ services:
   nginx:
     image: nginx:stable-alpine
     ports:
-      - 80:80
+      - 8080:80
+    depends_on:
+      - frontend
+      - backend
     volumes:
-      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./server/nginx.conf:/etc/nginx/conf.d/default.conf
     networks:
       - app
     
