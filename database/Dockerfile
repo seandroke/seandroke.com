@@ -6,6 +6,8 @@ ENV MONGO_INITDB_ROOT_PASSWORD rootpassword
 
 WORKDIR /data
 
+VOLUME ["/data/db"]
+
 ADD data.js .
 ADD seeder.js .
 
