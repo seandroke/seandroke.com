@@ -150,10 +150,18 @@ var data = {
       "logo": "/api/uploads/files/companies/penn.png",
       "Projects": [
         {
-          "name": "Full Stack App",
-          "description": "Built a custom web application using a Laravel, React, PostgreSQL, and Nginx stack. Application allows for internal business users to stream content from a salesforce database table to a custom user interface. Enabled server side rendering for a single page application using Inertia.js middleware. Connected Laravel authentication to LDAP active directory services and built custom session management. Well documented codebase with swagger integration and react-storybook component libraries."
+           "name":"Full Stack Administrative Applicaton",
+           "description":"Built a full stack application to consolidate and expand utilities leveraged across the full breadth of Penn's property portfolio and I-Casino offerings. Completed the full SDLC, from ideation to release. As the lead project engineer, I was in charge of system design and architecture. Based on available developer resources and modern practices, the application technology stack was chosen to be Laravel, React, and NGINX connected to existing PostgreSQL and MySQL data stores. Inertia.js was selected as middleware to facilitate Laravel server side rendering of the front end to increase developer full stack productivity and reduce implementation time. The application was containerized for Docker and Kubernetes deployment, and a robust Jenkins pipeline was built out for advanced CI/CD. The application is currently leveraged by about 1000 property and I-Casino level administrators."
+        },
+        {
+           "name":"Rundeck Initiative",
+           "description":"Led a POC and later full scale deployment of a proprietary Rundeck instance to provide a centralized platform for maintaining chron jobs. Prior to the release of this utility, jobs were fragmented across different servers, documented in clunky excel spreadsheets. Rundeck provides functionality to act as an advanced server manager and job scheduler. As the resource lead, I was responsible for maintaining the instance, onboarding fellow team members and integrating their existing jobs, implementing and peer reviewing custom Java plugins, and providing documentation and other resources for the technology."
+        },
+        {
+           "name":"Microservice Refactoring",
+           "description":"Adopted a project due to developer resource constraints surrounding refactoring a Laravel codebase into disjointed PHP slim microservices needed as a result of regulatory changes and planned enhancements to the core application load balancer. As the inherited project lead, it was my responsibility to debug and refactor the existing work that had been completed as well as implementation of the remaining microservice architecture needed to fulfill requirements."
         }
-      ]
+     ]
     },
     {
       "company": "Comcast",

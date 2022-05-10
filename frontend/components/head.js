@@ -44,7 +44,7 @@ const HeadComponent = () => (
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     {/*  Twitter */}
-    <meta property="twitter:site" content="seandroke.comm" />
+    <meta property="twitter:site" content="seandroke.com" />
     <meta property="twitter:domain" content="seandroke.com" />
     <meta property="twitter:creator" content="Sean Droke" />
     <meta property="twitter:card" content="summary" />
@@ -53,12 +53,12 @@ const HeadComponent = () => (
     <meta property="og:title" content={brand.profile.desc} />
     <meta
       property="og:description"
-      content={brand.profile.desc}
+      content={"Custom portfolio built with React.js, Spring Boot, and MongoDB. Hosted using AWS Lightsail."}
     />
     <meta name="twitter:site" content={brand.profile.url} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content={brand.profile.img} />
-    <meta property="og:image" content={brand.profile.img} />
+    <meta property="og:image" content="/static/images/seandroke.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
   </Head>

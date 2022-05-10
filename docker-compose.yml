@@ -3,6 +3,7 @@ services:
 
   frontend:
     image: node:14.16.1
+    container_name: frontend
     volumes:
       - ./frontend/.:/src/
     working_dir: /src
@@ -15,6 +16,7 @@ services:
 
   backend:
     image: gradle:6.9-jdk11
+    container_name: backend
     volumes:
       - ./backend/:/app
     working_dir: /app
@@ -26,18 +28,23 @@ services:
 
   db:
     image: mongo:latest
+    container_name: db
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: rootpassword
     ports:
       - 27017:27017
+    working_dir: /app
     volumes:
       - db-data:/data/db
+      - ./database/data.js:/app/data.js
+      - ./database/seeder.js:/app/seeder.js
     networks:
       - app
 
   nginx:
     image: nginx:stable-alpine
+    container_name: server
     ports:
       - 8080:80
     depends_on:
