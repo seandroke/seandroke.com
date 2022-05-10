@@ -53,7 +53,7 @@ const HeadComponent = () => (
     <meta property="og:title" content={brand.profile.desc} />
     <meta
       property="og:description"
-      content={"Custom portfolio built with React.js, Spring Boot, and MongoDB. Hosted using AWS Lightsail."}
+      content="Custom portfolio built with React.js, Spring Boot, and MongoDB. Hosted using AWS Lightsail."
     />
     <meta name="twitter:site" content={brand.profile.url} />
     <meta name="twitter:card" content="summary_large_image" />
