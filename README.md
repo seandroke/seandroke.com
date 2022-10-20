@@ -14,7 +14,7 @@ The application is hosted by AWS via a Lightsail Ubuntu 20.04 instance. This ins
 1. Clone the repository: `git clone https://github.com/seandroke/seandroke.com.git`
 2. Access the repository: `cd seandroke.com/`
 3. Run the docker compose sequence: `docker-compose up -d`
-4. Run the database seeder: `docker exec -u root db mongo seeder.js`
+4. Run the database seeder: `docker exec -u root db mongosh seeder.js`
 5. Access the application: `http://localhost:8080/`
 
 

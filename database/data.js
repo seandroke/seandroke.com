@@ -14,7 +14,7 @@ var data = {
     "WorkExperience": [
       {
         "title": "Software Engineer",
-        "company": "Penn National Gaming",
+        "company": "Penn Entertainment",
         "location": "Wyomissing, PA",
         "tenure": "April 2021 - Present"
       },
@@ -145,7 +145,7 @@ var data = {
   },
   "Projects": [
     {
-      "company": "Penn National Gaming",
+      "company": "Penn Entertainment",
       "title": "Software Engineer",
       "logo": "/api/uploads/files/companies/penn.png",
       "Projects": [
@@ -160,6 +160,10 @@ var data = {
         {
            "name":"Microservice Refactoring",
            "description":"Adopted a project due to developer resource constraints surrounding refactoring a Laravel codebase into disjointed PHP slim microservices needed as a result of regulatory changes and planned enhancements to the core application load balancer. As the inherited project lead, it was my responsibility to debug and refactor the existing work that had been completed as well as implementation of the remaining microservice architecture needed to fulfill requirements."
+        },
+        {
+          "name": "Serverless AWS Lambda Functions",
+          "description": "Implemented serverless functions using AWS Lambda with integration to Kafka event streams to enhance real time processing capabilities associated with our customer loyalty system."
         }
      ]
     },
@@ -227,8 +231,8 @@ var data = {
   "AboutMe": {
     "bio": [
       "I am 24 years old, born and raised in the Greater Philadelphia Area. For the majority of my life, I have called Medford, New Jersey home. I am the eldest of three boys, born of two math teachers, yet I was always partial to the sciences.",
-      "I'm known to always be looking for a different way to solve something, and not stopping until I find an answer to the problems I face. I have always been fascinated with computers, and I can't think of a career with more new and exciting problems than that which I have found in Computer Science. I am endlessly eager to learn that which I don't know and love to meet and collaborate with new faces along the way.",
-      "Outside of that, I am well known for falling down deep YouTube rabbit holes to satisfy my ever growing curiosity, and I love to embrace my creativity with personal projects just like this site! I enjoy spending quality time with friends and loved ones, and of course, watching my fair share of the Eagles, regardless of how upset they might make me!"
+      "I'm known to always be looking for a different way to solve something, and not stopping until I find an answer to the problems I face. I have always been fascinated with computers, and I can't think of a career with more new and exciting problems than that which I have found in Software Engineering. I am endlessly eager to learn that which I don't know and love to meet and collaborate with new faces along the way.",
+      "Outside of that, I am well known for falling down deep YouTube rabbit holes to satisfy my ever growing curiosity, and I love to embrace my creativity with personal projects just like this site! I enjoy spending quality time with friends and loved ones, and of course, watching my fair share of the Eagles."
     ]
   },
   "Location": {
