@@ -242,7 +242,7 @@ var data = {
     "x": 125,
     "y": 110,
     "availability": "Part Time",
-    "status": "Right now, I am fully employed as a Software Engineer. However, I am actively seeking part time, freelance/contract work, outside of traditional working hours. I am always open to chat about all possible opportunities!"
+    "status": "Right now, I am fully employed as a Software Engineer. However, I do consider part time, freelance/contract work, outside of traditional working hours. I am always open to chat about all possible opportunities!"
   },
   "Footer": {
     "name": "Sean Droke",
