@@ -1,0 +1,8 @@
+docker stop seandrokecom_server
+docker rm seandrokecom_server
+docker stop seandrokecom_backend
+docker rm seandrokecom_backend
+docker stop seandrokecom_database
+docker rm seandrokecom_database
+docker stop seandrokecom_frontend
+docker rm seandrokecom_frontend
