@@ -1,0 +1,62 @@
+version: '3.8'
+services:
+
+  frontend:
+    image: node:14.16.1
+    container_name: frontend
+    volumes:
+      - ./frontend/.:/src/
+    working_dir: /src
+    command: bash -c "npm install && npm run dev"
+    environment:
+      NODE_ENV: development
+      DEBUG: nodejs-docker-express:*
+    networks:
+      - app
+
+  backend:
+    image: gradle:6.9-jdk11
+    container_name: backend
+    volumes:
+      - ./backend/:/app
+    working_dir: /app
+    command: sh run.sh
+    depends_on:
+      - db
+    networks:
+      - app
+
+  db:
+    image: mongo:latest
+    container_name: db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: rootpassword
+    ports:
+      - 27017:27017
+    working_dir: /app
+    volumes:
+      - db-data:/data/db
+      - ./database/data.js:/app/data.js
+      - ./database/seeder.js:/app/seeder.js
+    networks:
+      - app
+
+  nginx:
+    image: nginx:stable-alpine
+    container_name: server
+    ports:
+      - 8080:80
+    depends_on:
+      - frontend
+      - backend
+    volumes:
+      - ./server/nginx.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - app
+    
+volumes:
+  db-data:
+
+networks:
+  app:
