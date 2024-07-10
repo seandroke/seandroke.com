@@ -64,11 +64,25 @@ function Projects(props) {
   }, []);
 
   if(toggler) {
-    detailedWork = (<div className={classes.SubInfo}>{renderContent.map((item, index) => (
-    <div>
-      <h3 style={{paddingTop: '5%'}} className={text.subtitle2}><b>Project Name: <i>{item.name}</i></b></h3>
-      <p className={text.paragraph}>{item.description}</p>
-    </div>))}</div>)
+    detailedWork = (
+      <div className={classes.SubInfo}>
+        {renderContent.map((item, index) => (
+          <div key={index}> {/* Added key prop for each item */}
+            <h3 style={{ paddingTop: '5%' }} className={text.subtitle2}>
+              <b>Project Name: <i>{item.name}</i></b>
+            </h3>
+            <p className={text.paragraph}>
+              {item.description.split("\n\n").map((paragraph, idx) => ( // Split description with double newline
+                <span key={idx}>  {/* Added key prop for each paragraph */}
+                  {paragraph}
+                  <br /> {/* Add line break after each paragraph */}
+                </span>
+              ))}
+            </p>
+          </div>
+        ))}
+      </div>
+    );
 
   }
 
