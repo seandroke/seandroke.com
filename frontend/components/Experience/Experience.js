@@ -123,6 +123,8 @@ function Experience(props) {
                         <div>
                           <Typography variant="h3" gutterBottom className={text.subtitle2}>{exp.title}</Typography>
                           <Typography gutterBottom>{exp.company}<br/><i>{exp.location}</i></Typography>
+                        </div>
+                        <div>
                           <Typography className={classes.time}>{exp.tenure}</Typography>
                         </div>
                       </ReactWOW>
