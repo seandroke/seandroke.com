@@ -32,6 +32,12 @@ var data = {
       },
       {
         "title": "Network & Automation Engineering Intern",
+        "company": "Comcast",
+        "location": "West Chester, PA",
+        "tenure": "April 2019 - August 2019"
+      },
+      {
+        "title": "Software Engineering Intern",
         "company": "The Interpublic Group",
         "location": "New York, NY",
         "tenure": "October 2018 - March 2019"
@@ -40,7 +46,7 @@ var data = {
         "title": "Systems Administration Intern",
         "company": "Tierney Communications",
         "location": "Philadelphia, PA",
-        "tenure": "June 2018 - October 2018"
+        "tenure": "June 2018 - September 2018"
       }
     ],
     "Languages": [
