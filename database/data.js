@@ -1,7 +1,7 @@
 var data = {
   "_id": 1,
   "BannerNav": {
-    "title": "My name is Sean Droke, Full Stack Software Engineer",
+    "title": "My name is Sean Droke, Senior Software Engineer",
     "bio": "I love to solve new and exciting problems. I am a passionate engineer, creator, and thinker. I am endlessly curious and constantly seeking a new way to do things."
   },
   "Education": {
@@ -13,10 +13,16 @@ var data = {
   "Experience": {
     "WorkExperience": [
       {
+        "title": "Senior Software Engineer",
+        "company": "Vanguard",
+        "location": "Malvern, PA",
+        "tenure": "September 2025 - Present"
+      },
+      {
         "title": "Software Engineer",
         "company": "Penn Entertainment",
         "location": "Wyomissing, PA",
-        "tenure": "April 2021 - Present"
+        "tenure": "April 2021 - September 2025"
       },
       {
         "title": "Full Stack Software Engineer",
@@ -324,9 +330,9 @@ var data = {
     ]
   },
   "Location": {
-    "location": "Philadelphia, PA",
-    "description": "I am living and working remotely from Philly!",
-    "img": "/api/uploads/files/locations/love-park.jpg",
+    "location": "Bala Cynwyd, PA",
+    "description": "I am living in Bala Cynwyd, and working in Malvern, PA!",
+    "img": "/api/uploads/files/locations/bala_cynwyd.jpg",
     "x": 125,
     "y": 110,
     "availability": "Part Time",
@@ -343,7 +349,7 @@ var data = {
   // },
   "Footer": {
     "name": "Sean Droke",
-    "title": "Software Engineer",
+    "title": "Senior Software Engineer",
     "phone": "+1 609 500 3961",
     "email": "drokesean@gmail.com"
   }

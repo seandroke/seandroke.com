@@ -38,7 +38,7 @@ function Footer(props) {
                 Sean Droke
               </Typography>
               <Typography variant="h4" className={text.subtitle}>
-                <nobr>Full Stack</nobr><br></br><nobr>Software Engineer</nobr>
+                <nobr>Senior Software Engineer</nobr>
               </Typography>
             </div>
             <div className={classes.socmed}>
